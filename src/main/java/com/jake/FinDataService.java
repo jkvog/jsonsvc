@@ -1,0 +1,26 @@
+package com.jake;
+
+import org.springframework.stereotype.Component;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by jvogelaar on 8/15/17.
+ */
+@Component
+public class FinDataService {
+    private static List<FinData> finDataList = new ArrayList<>();
+
+    static {
+        FinData fd1 = new FinData("IBM", "International Business Machines");
+        FinData fd2 = new FinData("MSFT", "Microsoft");
+        finDataList.add(fd1);
+        finDataList.add(fd2);
+    }
+
+    public List<FinData> getFinData() {
+        return finDataList;
+    }
+
+}
