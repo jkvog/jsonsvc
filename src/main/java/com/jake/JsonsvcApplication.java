@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JsonsvcApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(JsonsvcApplication.class, args);
+		System.out.println("Changed this in branch-1");
 	}
 }
+
