@@ -20,6 +20,7 @@ public class FinDataService {
     }
 
     public List<FinData> getFinData() {
+        System.out.println("Getting fin data");
         return finDataList;
     }
 
