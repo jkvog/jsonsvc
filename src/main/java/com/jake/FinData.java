@@ -1,7 +1,7 @@
 package com.jake;
 
 /**
- * Created by jvogelaar on 8/15/17.
+ * Created on 8/15/17.
  */
 public class FinData {
 
