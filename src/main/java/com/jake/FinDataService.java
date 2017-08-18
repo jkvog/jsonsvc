@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by jvogelaar on 8/15/17.
+ * Created  on 8/15/17.
  */
 @Component
 public class FinDataService {
