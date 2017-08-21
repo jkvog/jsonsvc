@@ -14,7 +14,7 @@ public class FinDataService {
 
     static {
         FinData fd1 = new FinData("IBM", "International Business Machines");
-        FinData fd2 = new FinData("MSFT", "Microsoft");
+        FinData fd2 = new FinData("AMZN", "Amazon");
         finDataList.add(fd1);
         finDataList.add(fd2);
     }
