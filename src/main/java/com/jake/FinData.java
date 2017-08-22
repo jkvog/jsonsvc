@@ -8,14 +8,34 @@ public class FinData {
     private String ticker;
     private String name;
 
-    public String getTicker() {
-        return ticker;
+    @Override
+    public String toString() {
+        return "FinData{" +
+                "ticker='" + ticker + '\'' +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
     }
 
     public FinData(String ticker, String name) {
         this.ticker = ticker;
         this.name = name;
     }
+
+    private Double price;
+
+    public String getTicker() {
+        return ticker;
+    }
+
 
     public void setTicker(String ticker) {
         this.ticker = ticker;
@@ -29,11 +49,4 @@ public class FinData {
         this.name = name;
     }
 
-    @Override
-    public String toString() {
-        return "FinData{" +
-                "ticker='" + ticker + '\'' +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }
