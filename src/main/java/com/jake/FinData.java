@@ -5,6 +5,8 @@ package com.jake;
  */
 public class FinData {
 
+    //added a comment
+
     private String ticker;
     private String name;
 
@@ -47,6 +49,9 @@ public class FinData {
 
     public void setName(String name) {
         this.name = name;
+
+
     }
 
 }
+
